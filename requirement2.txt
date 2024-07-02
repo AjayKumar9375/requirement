@@ -1,1 +1,2 @@
 this is dummy .txt 2 file
+hello = packagename/1.2.1/release
