@@ -1,7 +1,7 @@
 import argparse
 
 def create_file(filename):
-    with open(filename, 'w') as file:
+    with open(filename, 'r') as file:
         lines = file.readlines()
 
     new_requirement = "new_package/1.0.2/release"
