@@ -1,2 +1,2 @@
 This is a dummy .txt 1 file 
-packagename/1.2.1/release
+V1/1.2.1/release
