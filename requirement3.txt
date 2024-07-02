@@ -1,2 +1,3 @@
 this is dummy .txt 3 file
-hello = packagename/1.2.1/release
+packagename/1.2.1/release
+L1/smd/1.2.1/release
