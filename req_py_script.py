@@ -1,6 +1,6 @@
 import argparse
 
-def create_file(filename, package_name):
+def req_file(filename, package_name):
     with open(filename, 'r') as file:
         lines = file.readlines()
     for line in lines:
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     parser.add_argument("--package_name", required=True , help='The path to the .txt file to modify and read.')
     args = parser.parse_args()
     
-    file_content = create_file(args.filename, args.package_name)
+    file_content = req_file(args.filename, args.package_name)
 
     print("Status")
     print(file_content)
