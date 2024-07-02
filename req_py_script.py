@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser.add_argument('filename', type=str, help='The path to the .txt file to modify and read.')
     args = parser.parse_args()
     
-    file_content = create_file(output_filename)
+    file_content = create_file(args.filename)
 
     print("modified content")
     print(file_content)
