@@ -13,4 +13,4 @@ type requirements1.txt
 pytest  # Run tests using pytest
 
 # Deactivate the virtual environment
-#deactivate  # Deactivate the virtual environment to return to the system Python
+deactivate  # Deactivate the virtual environment to return to the system Python
