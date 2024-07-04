@@ -1,2 +1,6 @@
 This is a dummy .txt 1 file 
 V1/1.2.1/release
+
+requests==2.26.0
+numpy>=1.21.0
+
