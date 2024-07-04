@@ -7,6 +7,8 @@ source venv/bin/activate  # Activate the virtual environment
 # Install dependencies
 pip install -r requirements1.txt  # Install Python dependencies listed in 'requirements.txt'
 
+pip freeze > requirements.txt
+
 type requirements1.txt
 
 # Run tests
