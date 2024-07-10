@@ -4,3 +4,4 @@ V1/1.2.1/release
 requests==2.26.0
 numpy>=1.21.0
 
+"this is requirment.txt only for learning purposes"
